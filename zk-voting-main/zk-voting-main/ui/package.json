@@ -1,0 +1,33 @@
+{
+  "name": "zkml-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lighthouse-web3/sdk": "^0.3.0",
+    "@radix-ui/themes": "^2.0.3",
+    "axios": "^1.6.5",
+    "classnames": "^2.3.2",
+    "mina-signer": "^2.1.1",
+    "next": "14.0.2",
+    "numeral": "^2.0.6",
+    "o1js": "^0.17.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "@types/numeral": "^2.0.5",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "typescript": "5.2.2"
+  }
+}
